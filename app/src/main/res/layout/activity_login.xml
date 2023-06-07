@@ -58,14 +58,20 @@
             android:id="@+id/btn_Register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register"
-            android:textAllCaps="true"
-            android:layout_marginTop="16dp"/>
-
-
-
+            style="@style/Widget.Material3.Button.TextButton"
+            android:text="Belum punya akun?"
+            android:textAllCaps="false"
+            android:textSize="14dp"/>
 
     </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_login"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
 
 
 
